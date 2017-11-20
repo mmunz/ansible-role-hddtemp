@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Manuel Munz
+  description: Install and configure hddtemp
+  company: comuno.net
+  license: BSD
+  min_ansible_version: 2.2
+  platforms:
+      versions:
+      - wheezy
+      - jessie
+      - stretch
+  
+  galaxy_tags:
+    - hddtemp
+    - monitoring
+    - system
+    - debian

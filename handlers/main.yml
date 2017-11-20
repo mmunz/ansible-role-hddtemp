@@ -1,0 +1,4 @@
+---
+# handlers file for c1.hddtemp
+- name: hddtemp restart
+  service: name=hddtemp state=restarted

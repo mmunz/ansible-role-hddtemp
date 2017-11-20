@@ -1,0 +1,8 @@
+---
+# tasks file for c1.hddtemp
+- name: install hddtemp
+  apt: name=hddtemp state=present
+- name: create hddtemp condiguration in /etc/default/hddtemp
+  template: src=hddtemp.j2 dest=/etc/default/hddtemp
+  notify: hddtemp restart
+
